@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AppHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SDCharListener.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\Animation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\AnimationManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\AnimationObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\AnimUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\AsyncImageLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\helper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\LayerStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\UIContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\UIElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\UILinearContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\UIRelativeContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\UITable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\UIText.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimUI\uiwindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AppHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SDCharListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\Animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\AnimationManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\AnimationObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\AnimUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\AnimUITypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\AsyncImageLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\BaseEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\helper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\LayerStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\LesStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\predef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\UIContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\UIElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\UILinearContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\UIRelativeContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\UIStyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\UITable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\UIText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimUI\uiwindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GUI.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="favicon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
