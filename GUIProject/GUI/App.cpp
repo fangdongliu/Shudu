@@ -47,7 +47,8 @@ void App::NewGame() {
 	if (sd.mapQueue.size() > 0) {
 		memset(editable, 0, sizeof(editable));
 		bool temp[63] = { 0 };
-		for (int i = 0; i < 30; i++) {
+		int maxn = time(0) % 15 + 15;
+		for (int i = 0; i < maxn; i++) {
 			temp[i] = 1;
 		}
 		for (int i = 0; i < 1000; i++) {
@@ -338,6 +339,7 @@ bool App::Init() {
 	auto window = UIWindow::CreateMainWindow(0, 0, 700, 600, true);
 	destWindow = window;
 	window->Center();
+	srand(time(0));
 	CreatePage(window);
 	
 	window->Show();
